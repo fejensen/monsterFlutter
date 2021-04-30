@@ -1,0 +1,102 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+FileSystemException: FileSystemException: Exists failed, path = 'C:\Users\fmoreni\Desktop\repo\fiap-flutter\aula20\professor\NAC_FLUTTER\build\4b80a0b22e030b87776425abc72bf87c' (OS Error: Access is denied.
+, errno = 5)
+
+```
+#0      _Directory.existsSync (dart:io/directory_impl.dart:94:7)
+#1      _Directory.createSync (dart:io/directory_impl.dart:126:11)
+#2      ForwardingDirectory.createSync (package:file/src/forwarding/forwarding_directory.dart:22:16)
+#3      FlutterBuildSystem.buildIncremental (package:flutter_tools/src/build_system/build_system.dart:615:26)
+#4      ResidentRunner.runSourceGenerators (package:flutter_tools/src/resident_runner.dart:920:44)
+#5      HotRunner.run (package:flutter_tools/src/run_hot.dart:308:13)
+<asynchronous suspension>
+#6      RunCommand.runCommand (package:flutter_tools/src/commands/run.dart:601:37)
+<asynchronous suspension>
+#7      FlutterCommand.verifyThenRunCommand (package:flutter_tools/src/runner/flutter_command.dart:949:18)
+#8      _rootRunUnary (dart:async/zone.dart:1198:47)
+#9      _CustomZone.runUnary (dart:async/zone.dart:1100:19)
+#10     _FutureListener.handleValue (dart:async/future_impl.dart:143:18)
+#11     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:696:45)
+#12     Future._propagateToListeners (dart:async/future_impl.dart:725:32)
+#13     Future._completeWithValue (dart:async/future_impl.dart:529:5)
+#14     _AsyncAwaitCompleter.complete (dart:async-patch/async_patch.dart:40:15)
+#15     _completeOnAsyncReturn (dart:async-patch/async_patch.dart:311:13)
+#16     RunCommand.usageValues (package:flutter_tools/src/commands/run.dart)
+#17     _rootRunUnary (dart:async/zone.dart:1198:47)
+#18     _CustomZone.runUnary (dart:async/zone.dart:1100:19)
+#19     _FutureListener.handleValue (dart:async/future_impl.dart:143:18)
+#20     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:696:45)
+#21     Future._propagateToListeners (dart:async/future_impl.dart:725:32)
+#22     Future._completeWithValue (dart:async/future_impl.dart:529:5)
+#23     _AsyncAwaitCompleter.complete (dart:async-patch/async_patch.dart:40:15)
+#24     _completeOnAsyncReturn (dart:async-patch/async_patch.dart:311:13)
+#25     AndroidDevice.isLocalEmulator (package:flutter_tools/src/android/android_device.dart)
+#26     _rootRunUnary (dart:async/zone.dart:1198:47)
+#27     _CustomZone.runUnary (dart:async/zone.dart:1100:19)
+#28     _FutureListener.handleValue (dart:async/future_impl.dart:143:18)
+#29     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:696:45)
+#30     Future._propagateToListeners (dart:async/future_impl.dart:725:32)
+#31     Future._completeWithValue (dart:async/future_impl.dart:529:5)
+#32     Future._asyncCompleteWithValue.<anonymous closure> (dart:async/future_impl.dart:567:7)
+#33     _rootRun (dart:async/zone.dart:1190:13)
+#34     _CustomZone.run (dart:async/zone.dart:1093:19)
+#35     _CustomZone.runGuarded (dart:async/zone.dart:997:7)
+#36     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1037:23)
+#37     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#38     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#39     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:118:13)
+#40     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:169:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel master, 1.22.0-10.0.pre.39, on Microsoft Windows [Version 10.0.17134.1667], locale pt-BR)
+    • Flutter version 1.22.0-10.0.pre.39 at C:\flutter\flutter
+    • Framework revision a8281e31af (20 hours ago), 2020-09-01 10:57:59 -0700
+    • Engine revision 165abef0a2
+    • Dart version 2.10.0 (build 2.10.0-77.0.dev)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 29.0.2)
+    • Android SDK at C:\Users\fmoreni\AppData\Local\Android\Sdk
+    • Platform android-29, build-tools 29.0.2
+    • ANDROID_HOME = C:\Users\fmoreni\AppData\Local\Android\Sdk
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_212-release-1586-b04)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[✓] Android Studio (version 3.6)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin version 44.0.2
+    • Dart plugin version 192.7761
+    • Java version OpenJDK Runtime Environment (build 1.8.0_212-release-1586-b04)
+
+[!] IntelliJ IDEA Community Edition (version 2019.1)
+    • IntelliJ at C:\Users\fmoreni\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2019.1.2
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    ✗ Dart plugin not installed; this adds Dart specific functionality.
+    • For information about installing plugins, see
+      https://flutter.dev/intellij-setup/#installing-the-plugins
+
+[✓] VS Code (version 1.48.2)
+    • VS Code at C:\Users\fmoreni\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.13.2
+
+[✓] Connected device (3 available)
+    • AOSP on IA Emulator (mobile) • emulator-5554 • android-x86    • Android 9 (API 28) (emulator)
+    • Web Server (web)             • web-server    • web-javascript • Flutter Tools
+    • Chrome (web)                 • chrome        • web-javascript • Google Chrome 84.0.4147.135
+
+! Doctor found issues in 1 category.
+```

@@ -1,0 +1,88 @@
+[
+  {
+    "id": "1",
+    "name": "Rathalos",
+    "location": "Ancient Forest, Elder's Recess (Investigations only)",
+    "element": "FIRE",
+    "ailment": "FIREBLIGHT, STUN, POISON",
+    "quest": "A Fiery Throne Atop the Forest, When Desire Becomes an Obsession, Redefining the Power Couple, Rathalos Rematch, The Red and Blue Crew, Special Arena: HR Rathalos, The White Winds of the New World",
+    "weakness": "Dragon⭐⭐⭐  Thunder⭐⭐  Water⭐  Ice⭐",
+    "weakness_img": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/rathalos_weaknesses-mhw.jpg",
+    "img_asset": "assets/img/rathalos.png",
+    "background_img": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/07/Monster-Hunter-Rathalos.jpg",
+    "description": "The apex monster of the Ancient Forest, also known as the 'King of the Skies'. A fierce wyvern that descends upon invaders, attacking with its venomous claws and fiery breath."
+  },
+  {
+    "id": "2",
+    "name": "Rathian",
+    "location": "Ancient Forest, Wildspire Waste",
+    "element": "FIRE",
+    "ailment": "FIREBLIGHT, STUN, POISON",
+    "quest": "Royal Relocation, Special Arena: Rathian, Special Arena: HR Rathian, Redefining the Power Couple, The Sleeping Sylvan Queen, Brown Desert, Green Queen, Arena Quest 03",
+    "weakness": "Dragon⭐⭐⭐  Thunder⭐⭐",
+    "weakness_img": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/rathian_weaknesses-mhw.jpg",
+    "img_asset": "assets/img/rathian.png",
+    "background_img": "https://cdnen.samurai-gamers.com/wp-content/uploads/2019/07/05163515/Rathian.jpg",
+    "description": "A wyvern known as the 'Queen of the Land.' Terrestrial predator, it overpowers its prey with a venomous tail and powerful legs."
+  },
+  {
+    "id": "3",
+    "name": "Barroth",
+    "location": "Wildspire Waste",
+    "element": "NONE",
+    "ailment": "WATERBLIGHT",
+    "quest": "Wildspire Rampage, Mired in the Spire, Landing the Landslide Wyvern, Special Arena: Barroth, A Crown of Mud and Anger, Special Arena: HR Barroth",
+    "weakness": "Water⭐⭐⭐(mud)  Fire⭐⭐⭐(flesh)  Ice⭐⭐",
+    "weakness_img": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/barroth_weaknesses_monster_hunter_world.jpg",
+    "img_asset": "assets/img/barroth.png",
+    "background_img": "https://i.ytimg.com/vi/0XiPN_MjbRY/maxresdefault.jpg",
+    "description": "Barroths seek out ants, their favorite snack, and mark their territory with mud. They attack potential rivals with their devastating charging attack."
+  },
+   {
+    "id": "4",
+    "name": "Anjanath",
+    "location": "Ancient Forest, Wildspire Waste",
+    "element": "FIRE",
+    "ailment": "FIREBLIGHT",
+    "quest": "The Encroaching Anjanath, Tickled Pink, One Helluva Sinus Infection, Special Arena: Anjanath, It Can't See You If You Don't Move, Trespassing Troublemaker, Special Arena: HR Anjanath, The Proving",
+    "weakness": "Water⭐⭐⭐  Thunder⭐⭐  Ice ⭐⭐",
+    "weakness_img": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/anjanath_weaknesses_monster_hunter_world.jpg",
+    "img_asset": "assets/img/anjanath.png",
+    "background_img": "https://assets.vg247.com/current//2017/12/monster_hunter_world_Anjanath.jpg",
+    "description": "The Anjanath patrols the Ancient Forest looking for its favorite meal, Aptonoth. This belligerent monster will attack anything without the slightest provocation."
+  },
+    {
+    "id": "5",
+    "name": "Diablos",
+    "location": "Wildspire Waste",
+    "element": "NONE",
+    "ailment": "STUN",
+    "quest": "Horned Tyrant Below the Sands, Twin Spires Upon the Sands, Special Arena: Diablos, Well, That Diablos!, RRRRRumble in the Waste!, Special Arena: HR Diablos, The White Winds of the New World",
+    "weakness": "Ice⭐⭐⭐  Dragon⭐⭐  Water ⭐⭐  Thunder ⭐",
+    "weakness_img": "https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/diablos_weaknesses-mhw.jpg",
+    "img_asset": "assets/img/diablos.png",
+    "background_img": "https://i.ytimg.com/vi/Zy6Xgl4xZZQ/maxresdefault.jpg",
+    "description": "The apex monster of the Wildspire Waste. A menacing, territorial beast that lurks underground. Loud noises will cause it to lunge out of the sand in search of prey."
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
